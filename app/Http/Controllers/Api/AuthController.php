@@ -12,6 +12,7 @@ use App\Http\Requests\LoginRequest;
 use App\Http\Requests\RegisterRequest;
 use App\Models\User;
 use App\Traits\ApiResponse;
+use Throwable;
 
 class AuthController extends Controller
 {
